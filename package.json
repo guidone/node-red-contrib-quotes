@@ -1,7 +1,7 @@
 {
   "name": "node-red-contrib-quotes",
-  "version": "0.1.1",
-  "description": "",
+  "version": "0.2.0",
+  "description": "Get a random quote from different sources",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\""
@@ -10,8 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/guidone/node-red-contrib-quotes.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "node-red",
+    "quotes",
+    "quote",
+    "random"
+  ],
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/guidone/node-red-contrib-quotes/issues"
   },
@@ -19,6 +24,17 @@
     "nodes": {
       "quotes": "quotes.js"
     }
+  },
+  "maintainers": [
+    {
+      "name": "Guido Bellomo",
+      "email": "guido.bellomo@gmail.com",
+      "web": "http://javascript-jedi.com"
+    }
+  ],
+  "author": {
+    "name": "Guido Bellomo",
+    "email": "guido.bellomo@gmail.com"
   },
   "homepage": "https://github.com/guidone/node-red-contrib-quotes#readme"
 }

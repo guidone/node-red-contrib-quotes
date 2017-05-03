@@ -2,10 +2,6 @@ var request = require('request');
 
 module.exports = function(RED) {
 
-
-
-
-
   function Quotes(config) {
     RED.nodes.createNode(this, config);
     var node = this;
