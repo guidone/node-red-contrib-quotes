@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-quotes",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Get a random quote from different sources",
   "main": "index.js",
   "scripts": {
